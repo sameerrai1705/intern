@@ -1,0 +1,40 @@
+.footer{
+    width: 70vw;
+    margin: auto;
+    overflow: hidden;
+}
+
+.lorem{
+    padding-left: 10px;
+    padding-top: 8px;
+    font-size: 18px;
+}
+
+.media{
+    padding-left: 10px;
+    font-size: 30px;
+    display: flex;
+}
+
+.m{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 40px;
+    color: purple;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.copyright{
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+@media (max-width: 600px){
+    .footer{
+        width: 80vw;
+    }
+    .lorem{
+        font-size: 20px;
+    }
+}

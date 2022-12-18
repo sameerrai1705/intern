@@ -1,0 +1,89 @@
+.container {
+  background-color: #fafafa;
+  width: 70vw;
+  margin: auto;
+  margin-bottom: 40px;
+  padding-left: 40px;
+  padding-top: 30px;
+  border: 0.5px solid #03010048;
+  border-radius: 10px;
+}
+
+.test {
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.tests {
+  padding-left: 5px;
+}
+
+.lab {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  margin-top: -15px;
+  margin-bottom: 5px;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  color: purple;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.golocation {
+  font-size: 18px;
+  padding-right: 8px;
+}
+
+.delhi {
+  padding-right: 10px;
+}
+
+.timing {
+  padding-left: 10px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  margin-top: -28px;
+  margin-bottom: 20px;
+}
+
+.hi{
+  width: 100%;
+}
+
+button{
+  padding: 12px 30px;
+  border-radius: 15px;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  cursor: pointer;
+  background-color: #008DB9;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #16437e;
+  color: #ffffff;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 80vw;
+    padding-left: 25px;
+  }
+  .lab {
+    padding-left: 20px;
+  }
+}

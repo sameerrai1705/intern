@@ -1,0 +1,82 @@
+.box {
+  margin-right: 50px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  border: 0.5px solid #d3d3d3;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-top: 15px;
+}
+
+.title {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input.checkbox {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.panel {
+  font-weight: bold;
+}
+
+.time {
+  background-color: #f5edb3;
+  /* padding: 8px 10px; */
+  border-radius: 15px;
+  display: inline;
+}
+
+li {
+  padding-left: 40px;
+}
+
+.parameter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 100px;
+}
+
+.view {
+  color: purple;
+  cursor: pointer;
+}
+
+.price {
+  font-size: 15px;
+}
+
+.money {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+    margin-bottom: 16px;
+}
+
+button{
+    padding: 12px 30px;
+    border-radius: 15px;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    cursor: pointer;
+    background-color: #008DB9;
+}
+
+@media (max-width: 600px) {
+  .box {
+    margin-right: 20px;
+  }
+}

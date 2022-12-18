@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 100px;
+  display: flex;
+}
+
+.head {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  background-color: #fafafa;
+}
+
+h1 {
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.brief {
+  color: purple;
+  font-size: 50px;
+}
+
+.logo {
+  color: purple;
+  padding-left: 20px;
+}
+
+ .right {
+  margin-right: 5px;
+  font-size: 50px;
+  color: purple;
+}
+
+.line {
+  height: 1px;
+  opacity: 0.1;
+  background-color: black;
+} 
